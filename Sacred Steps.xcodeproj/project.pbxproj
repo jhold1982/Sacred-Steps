@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		643243F02E89D59A00A05F4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643243ED2E89D59A00A05F4F /* ContentView.swift */; };
+		643243F12E89D59A00A05F4F /* Sacred_StepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643243EE2E89D59A00A05F4F /* Sacred_StepsApp.swift */; };
+		643243F22E89D59A00A05F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643243EC2E89D59A00A05F4F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		643243DE2E89D59400A05F4F /* Sacred Steps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sacred Steps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		643243EC2E89D59A00A05F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		643243ED2E89D59A00A05F4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		643243EE2E89D59A00A05F4F /* Sacred_StepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sacred_StepsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		643243E02E89D59400A05F4F /* Sacred Steps */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Sacred Steps";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		643243DB2E89D59400A05F4F /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		643243D52E89D59400A05F4F = {
 			isa = PBXGroup;
 			children = (
-				643243E02E89D59400A05F4F /* Sacred Steps */,
+				643243EF2E89D59A00A05F4F /* Sacred Steps */,
 				643243DF2E89D59400A05F4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,16 @@
 				643243DE2E89D59400A05F4F /* Sacred Steps.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		643243EF2E89D59A00A05F4F /* Sacred Steps */ = {
+			isa = PBXGroup;
+			children = (
+				643243ED2E89D59A00A05F4F /* ContentView.swift */,
+				643243EE2E89D59A00A05F4F /* Sacred_StepsApp.swift */,
+				643243EC2E89D59A00A05F4F /* Assets.xcassets */,
+			);
+			path = "Sacred Steps";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +70,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				643243E02E89D59400A05F4F /* Sacred Steps */,
 			);
 			name = "Sacred Steps";
 			packageProductDependencies = (
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643243F22E89D59A00A05F4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643243F02E89D59A00A05F4F /* ContentView.swift in Sources */,
+				643243F12E89D59A00A05F4F /* Sacred_StepsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
