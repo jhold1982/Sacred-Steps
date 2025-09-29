@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Sacred_StepsApp: App {
@@ -13,5 +14,6 @@ struct Sacred_StepsApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: DataModel.self)
     }
 }
