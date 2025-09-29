@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		643243F02E89D59A00A05F4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643243ED2E89D59A00A05F4F /* ContentView.swift */; };
 		643243F12E89D59A00A05F4F /* Sacred_StepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643243EE2E89D59A00A05F4F /* Sacred_StepsApp.swift */; };
 		643243F22E89D59A00A05F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643243EC2E89D59A00A05F4F /* Assets.xcassets */; };
-		643243F42E89D64B00A05F4F /* KJV_bible.json in Resources */ = {isa = PBXBuildFile; fileRef = 643243F32E89D64B00A05F4F /* KJV_bible.json */; };
+		643243F42E89D64B00A05F4F /* kjvBible.json in Resources */ = {isa = PBXBuildFile; fileRef = 643243F32E89D64B00A05F4F /* kjvBible.json */; };
 		646977C92E8AE0EC00BFE59F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646977C82E8AE0EC00BFE59F /* DataModel.swift */; };
+		646977CD2E8AEADB00BFE59F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646977CC2E8AEADB00BFE59F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		643243DE2E89D59400A05F4F /* Sacred Steps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sacred Steps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		643243EC2E89D59A00A05F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		643243ED2E89D59A00A05F4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		643243EE2E89D59A00A05F4F /* Sacred_StepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sacred_StepsApp.swift; sourceTree = "<group>"; };
-		643243F32E89D64B00A05F4F /* KJV_bible.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KJV_bible.json; sourceTree = "<group>"; };
+		643243F32E89D64B00A05F4F /* kjvBible.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kjvBible.json; sourceTree = "<group>"; };
 		646977C82E8AE0EC00BFE59F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		646977CC2E8AEADB00BFE59F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,9 @@
 			children = (
 				643243EE2E89D59A00A05F4F /* Sacred_StepsApp.swift */,
 				646977C82E8AE0EC00BFE59F /* DataModel.swift */,
-				643243ED2E89D59A00A05F4F /* ContentView.swift */,
+				646977CC2E8AEADB00BFE59F /* ContentView.swift */,
 				643243EC2E89D59A00A05F4F /* Assets.xcassets */,
-				643243F32E89D64B00A05F4F /* KJV_bible.json */,
+				643243F32E89D64B00A05F4F /* kjvBible.json */,
 			);
 			path = "Sacred Steps";
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643243F42E89D64B00A05F4F /* KJV_bible.json in Resources */,
+				643243F42E89D64B00A05F4F /* kjvBible.json in Resources */,
 				643243F22E89D59A00A05F4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,9 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				643243F02E89D59A00A05F4F /* ContentView.swift in Sources */,
 				646977C92E8AE0EC00BFE59F /* DataModel.swift in Sources */,
 				643243F12E89D59A00A05F4F /* Sacred_StepsApp.swift in Sources */,
+				646977CD2E8AEADB00BFE59F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

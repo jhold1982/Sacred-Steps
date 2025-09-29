@@ -1,22 +1,26 @@
 //
-//  ContentView.swift
+//  ContentView 2.swift
 //  Sacred Steps
 //
-//  Created by Justin Hold on 9/28/25.
+//  Created by Justin Hold on 9/29/25.
 //
-
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    
+    // MARK: - Properties
+    
+    
+    
+    // MARK: - View Body
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        Text("Sacred Steps")
+        
     }
+    
+    // MARK: - Logic
 }
 
 #Preview {
